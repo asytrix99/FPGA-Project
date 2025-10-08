@@ -1,0 +1,833 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  8 23:15:11 2025
+# Process ID: 23716
+# Current directory: C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.runs/synth_1
+# Command line: vivado.exe -log Top_Student.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Student.tcl
+# Log file: C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.runs/synth_1/Top_Student.vds
+# Journal file: C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Student.tcl -notrace
+Command: synth_design -top Top_Student -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 42040 
+WARNING: [Synth 8-2292] literal value truncated to fit in 14 bits [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk_500.v:35]
+WARNING: [Synth 8-2292] literal value truncated to fit in 14 bits [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk_500.v:36]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 368.258 ; gain = 111.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_Student' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/Top_Student.v:14]
+INFO: [Synth 8-6157] synthesizing module 'clk6p25m' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk6p25m.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk6p25m' (1#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk6p25m.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/seven_seg.v:23]
+	Parameter s bound to: 8'b10010010 
+	Parameter one_decimal bound to: 8'b01111001 
+	Parameter zero bound to: 8'b11000000 
+	Parameter eight bound to: 8'b10000000 
+INFO: [Synth 8-6157] synthesizing module 'clk_500' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk_500.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_500' (2#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk_500.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg' (3#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/seven_seg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'basic_task_S' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_S.v:23]
+	Parameter radius bound to: 10 - type: integer 
+	Parameter thickness bound to: 3 - type: integer 
+	Parameter len_square bound to: 26 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk40' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk40.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk40' (4#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk40.v:23]
+INFO: [Synth 8-6157] synthesizing module 'movement' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/movement.v:23]
+	Parameter radius bound to: 10 - type: integer 
+	Parameter box_offset bound to: 3 - type: integer 
+	Parameter len_box bound to: 26 - type: integer 
+	Parameter left bound to: 3 - type: integer 
+	Parameter right bound to: 28 - type: integer 
+	Parameter top bound to: 35 - type: integer 
+	Parameter bottom bound to: 61 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/movement.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'movement' (5#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/movement.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'basic_task_S' (6#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'basic_task_R' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_R.v:23]
+	Parameter BLUE bound to: 16'b0000000000011111 
+	Parameter BLACK bound to: 16'b0000000000000000 
+	Parameter ORANGE bound to: 16'b1111110100100000 
+INFO: [Synth 8-6157] synthesizing module 'horizontal_movement' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'horizontal_movement' (7#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:23]
+INFO: [Synth 8-6157] synthesizing module 'vertical_movement' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/vertical_movement.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'vertical_movement' (8#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/vertical_movement.v:23]
+WARNING: [Synth 8-5788] Register oled_data_reg in module basic_task_R is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_R.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'basic_task_R' (9#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_R.v:23]
+INFO: [Synth 8-6157] synthesizing module 'basic_task_Q' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:23]
+	Parameter RED bound to: 16'b1111100000000000 
+	Parameter GREEN bound to: 16'b0000011111100000 
+	Parameter BLUE bound to: 16'b0000000000011111 
+	Parameter YELLOW bound to: 16'b1111111111100000 
+	Parameter WHITE bound to: 16'b1111111111111111 
+	Parameter BLACK bound to: 16'b0000000000000000 
+	Parameter MAGENTA bound to: 16'b1111100000011111 
+INFO: [Synth 8-6157] synthesizing module 'clk20m' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk20m.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk20m' (10#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk20m.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (11#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'basic_task_Q' (12#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:23]
+INFO: [Synth 8-6157] synthesizing module 'basic_task_P' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_P.v:23]
+INFO: [Synth 8-6157] synthesizing module 'task_p' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/task_P.v:23]
+	Parameter BLACK bound to: 16'b0000000000000000 
+	Parameter RED bound to: 16'b1111100000000000 
+	Parameter GREEN bound to: 16'b0000011111100000 
+	Parameter WHITE bound to: 16'b1111111111111111 
+	Parameter MAGENTA bound to: 16'b1111100000011111 
+	Parameter RADIUS bound to: 8 - type: integer 
+	Parameter CIRCLE_X bound to: 12 - type: integer 
+	Parameter CIRCLE_Y bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'task_p' (13#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/task_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'basic_task_P' (14#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_P.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:123]
+INFO: [Synth 8-226] default block is never used [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:198]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:346]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (15#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'Top_Student' (16#1) [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/Top_Student.v:14]
+WARNING: [Synth 8-3331] design basic_task_Q has unconnected port clk_6p25m
+WARNING: [Synth 8-3331] design Top_Student has unconnected port JB[2]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 464.281 ; gain = 207.590
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 464.281 ; gain = 207.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 464.281 ; gain = 207.590
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Student_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Student_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 801.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 801.789 ; gain = 545.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 801.789 ; gain = 545.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 801.789 ; gain = 545.098
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "blink0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "blink0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SLOW_CLOCK0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_S.v:50]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/basic_task_S.v:49]
+INFO: [Synth 8-5546] ROM "x_offset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "y_offset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "y" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "y" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_out0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "stable_btn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_1ms" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PowerUp | 00000000100000000000000000000000 |                            00000
+                   Reset | 00000000000100000000000000000000 |                            00001
+            ReleaseReset | 00000000000000000000100000000000 |                            00011
+            EnableDriver | 00000000000000000001000000000000 |                            00010
+              DisplayOff | 00000000000000000100000000000000 |                            00110
+   SetRemapDisplayFormat | 00000100000000000000000000000000 |                            00111
+            SetStartLine | 00001000000000000000000000000000 |                            00101
+               SetOffset | 10000000000000000000000000000000 |                            00100
+        SetNormalDisplay | 00000000000000000000000010000000 |                            01100
+       SetMultiplexRatio | 00000000000000000000000000100000 |                            01101
+  SetMasterConfiguration | 00000000000000000000000001000000 |                            01111
+        DisablePowerSave | 00000000000000000000000000000100 |                            01110
+          SetPhaseAdjust | 00000000000000000000000000001000 |                            01010
+         SetDisplayClock | 00000000001000000000000000000000 |                            01011
+     SetSecondPrechargeA | 00000000010000000000000000000000 |                            01001
+     SetSecondPrechargeB | 01000000000000000000000000000000 |                            01000
+     SetSecondPrechargeC | 00000010000000000000000000000000 |                            11000
+       SetPrechargeLevel | 00000001000000000000000000000000 |                            11001
+                SetVCOMH | 00000000000000010000000000000000 |                            11011
+        SetMasterCurrent | 00000000000000100000000000000000 |                            11010
+            SetContrastA | 00000000000001000000000000000000 |                            11110
+            SetContrastB | 00100000000000000000000000000000 |                            11111
+            SetContrastC | 00000000000000000000000000000001 |                            11101
+        DisableScrolling | 00000000000000000000000000000010 |                            11100
+             ClearScreen | 00000000000000000000000000010000 |                            10100
+                   VccEn | 00010000000000000000000000000000 |                            10101
+               DisplayOn | 00000000000010000000000000000000 |                            10111
+        PrepareNextFrame | 00000000000000001000000000000000 |                            10110
+           SetColAddress | 00000000000000000000010000000000 |                            10010
+           SetRowAddress | 00000000000000000000000100000000 |                            10011
+           WaitNextFrame | 00000000000000000000001000000000 |                            10001
+               SendPixel | 00000000000000000010000000000000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 801.789 ; gain = 545.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |movement__GB0     |           1|     33331|
+|2     |movement__GB1     |           1|      5880|
+|3     |movement__GB2     |           1|     10316|
+|4     |basic_task_S__GC0 |           1|      1329|
+|5     |Top_Student__GC0  |           1|      8967|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 60    
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 5     
+	   3 Input     14 Bit       Adders := 2     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 71    
+	   2 Input      7 Bit       Adders := 13    
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
+	               22 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               17 Bit    Registers := 5     
+	               16 Bit    Registers := 2     
+	               14 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 5     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 8     
+	   2 Input     16 Bit        Muxes := 9     
+	   5 Input     16 Bit        Muxes := 2     
+	   6 Input     16 Bit        Muxes := 3     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 13    
+	   2 Input      6 Bit        Muxes := 3     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	 317 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top_Student 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input     16 Bit        Muxes := 1     
+Module movement 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 60    
+	   2 Input      8 Bit       Adders := 60    
+	   2 Input      7 Bit       Adders := 4     
++---Registers : 
+	                7 Bit    Registers := 2     
++---Muxes : 
+	   6 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 2     
+	 317 Input      1 Bit        Muxes := 4     
+Module clk40 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     22 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module basic_task_S 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     14 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module clk6p25m 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module clk_500 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module seven_seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+Module horizontal_movement 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	               18 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module vertical_movement 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	               20 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module basic_task_R 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 11    
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     16 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module clk20m 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module basic_task_Q 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 3     
++---Registers : 
+	                3 Bit    Registers := 3     
++---Muxes : 
+	   6 Input     16 Bit        Muxes := 3     
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input      3 Bit        Muxes := 3     
+Module task_p 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module Oled_Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "c/SLOW_CLOCK0" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP circle0, operation Mode is: A*B.
+DSP Report: operator circle0 is absorbed into DSP circle0.
+DSP Report: Generating DSP circle, operation Mode is: C+A*B.
+DSP Report: operator circle is absorbed into DSP circle.
+DSP Report: operator circle0 is absorbed into DSP circle.
+INFO: [Synth 8-5546] ROM "h_move/x_offset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_move/STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_move/STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_move/y_offset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_move/STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_move/STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "y" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element clk_20m/count_reg was removed.  [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk20m.v:31]
+WARNING: [Synth 8-6014] Unused sequential element clk_20m/clk_out_reg was removed.  [C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.srcs/sources_1/new/clk20m.v:32]
+INFO: [Synth 8-5546] ROM "left_db/stable_btn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mid_db/stable_btn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "right_db/stable_btn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "my_task/clk_1ms" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "nolabel_line41/u1/blink0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design Top_Student has unconnected port JB[2]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[0]
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[0]' (FD) to 'Si_4/oled_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[1]' (FD) to 'Si_4/oled_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[2]' (FD) to 'Si_4/oled_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[3]' (FD) to 'Si_4/oled_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[5]' (FD) to 'Si_4/oled_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[6]' (FD) to 'Si_4/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[7]' (FD) to 'Si_4/oled_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[8]' (FD) to 'Si_4/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[9]' (FD) to 'Si_4/oled_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[11]' (FD) to 'Si_4/oled_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[12]' (FD) to 'Si_4/oled_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Si_4/oled_data_reg[14]' (FD) to 'Si_4/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[0]' (FDE) to 'i_0/R/oled_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[1]' (FDE) to 'i_0/R/oled_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[2]' (FDE) to 'i_0/R/oled_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[3]' (FDE) to 'i_0/R/oled_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[5]' (FDE) to 'i_0/R/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[6]' (FDE) to 'i_0/R/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[7]' (FDE) to 'i_0/R/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[8]' (FDE) to 'i_0/R/oled_data_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\R/oled_data_reg[9] )
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[10]' (FDE) to 'i_0/R/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[11]' (FDE) to 'i_0/R/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[12]' (FDE) to 'i_0/R/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[13]' (FDE) to 'i_0/R/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/R/oled_data_reg[14]' (FDE) to 'i_0/R/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/nolabel_line41/seg_reg[0]' (FD) to 'i_0/nolabel_line41/seg_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\nolabel_line41/seg_reg[2] )
+INFO: [Synth 8-3886] merging instance 'i_0/nolabel_line41/seg_reg[3]' (FD) to 'i_0/nolabel_line41/seg_reg[5]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:01:20 . Memory (MB): peak = 801.789 ; gain = 545.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|basic_task_S | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|basic_task_S | C+A*B       | 14     | 14     | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |movement__GB0     |           1|      2237|
+|2     |movement__GB1     |           1|       498|
+|3     |movement__GB2     |           1|       732|
+|4     |basic_task_S__GC0 |           1|       539|
+|5     |Top_Student__GC0  |           1|      2617|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:30 ; elapsed = 00:01:45 . Memory (MB): peak = 815.031 ; gain = 558.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:46 . Memory (MB): peak = 838.340 ; gain = 581.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |movement__GB0     |           1|      2237|
+|2     |movement__GB1     |           1|       498|
+|3     |movement__GB2     |           1|       732|
+|4     |basic_task_S__GC0 |           1|       539|
+|5     |Top_Student__GC0  |           1|      2617|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'nolabel_line41/an_reg[2]' (FD) to 'nolabel_line41/seg_reg[7]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:34 ; elapsed = 00:01:49 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:36 ; elapsed = 00:01:51 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:36 ; elapsed = 00:01:51 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:37 ; elapsed = 00:01:52 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:37 ; elapsed = 00:01:52 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:37 ; elapsed = 00:01:52 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:37 ; elapsed = 00:01:52 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     3|
+|2     |CARRY4    |   612|
+|3     |DSP48E1   |     1|
+|4     |DSP48E1_1 |     1|
+|5     |LUT1      |    43|
+|6     |LUT2      |   536|
+|7     |LUT3      |   274|
+|8     |LUT4      |   786|
+|9     |LUT5      |   649|
+|10    |LUT6      |  1878|
+|11    |MUXF7     |     1|
+|12    |FDE_1     |    32|
+|13    |FDRE      |   436|
+|14    |IBUF      |    12|
+|15    |OBUF      |    19|
+|16    |OBUFT     |     1|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------+--------------------+------+
+|      |Instance         |Module              |Cells |
++------+-----------------+--------------------+------+
+|1     |top              |                    |  5284|
+|2     |  P              |basic_task_P        |   295|
+|3     |    my_task      |task_p              |   295|
+|4     |  Q              |basic_task_Q        |   237|
+|5     |    left_db      |debouncer           |    50|
+|6     |    mid_db       |debouncer_0         |    50|
+|7     |    right_db     |debouncer_1         |    50|
+|8     |  R              |basic_task_R        |   269|
+|9     |    h_move       |horizontal_movement |    77|
+|10    |    v_move       |vertical_movement   |   144|
+|11    |  S              |basic_task_S        |  3712|
+|12    |    c            |clk40               |    40|
+|13    |    mv           |movement            |  3634|
+|14    |  display        |Oled_Display        |   678|
+|15    |  nolabel_line41 |seven_seg           |    45|
+|16    |    u1           |clk_500             |    25|
+|17    |  u1             |clk6p25m            |    11|
++------+-----------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:37 ; elapsed = 00:01:52 . Memory (MB): peak = 905.770 ; gain = 649.078
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:14 ; elapsed = 00:01:37 . Memory (MB): peak = 905.770 ; gain = 311.570
+Synthesis Optimization Complete : Time (s): cpu = 00:01:37 ; elapsed = 00:01:52 . Memory (MB): peak = 905.770 ; gain = 649.078
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 659 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  FDE_1 => FDRE (inverted pins: C): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+113 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:41 ; elapsed = 00:01:57 . Memory (MB): peak = 905.770 ; gain = 662.055
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/andre/NUS/CEG/EE2026/FDP.xpr/FDP/FDP.runs/synth_1/Top_Student.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_Student_utilization_synth.rpt -pb Top_Student_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 905.770 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  8 23:17:20 2025...

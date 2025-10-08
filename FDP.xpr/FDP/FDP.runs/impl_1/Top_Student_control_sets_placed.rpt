@@ -1,0 +1,91 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Oct  8 23:18:57 2025
+| Host         : asytrix running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    23 |
+| Unused register locations in slices containing registers |    74 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            1 |
+|      8 |            1 |
+|     12 |            2 |
+|     14 |            3 |
+|    16+ |           16 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             218 |           41 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             230 |           38 |
+| Yes          | No                    | No                     |             384 |           97 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             110 |           16 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+--------------------------------------+-----------------------------------+------------------+----------------+
+|        Clock Signal        |             Enable Signal            |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++----------------------------+--------------------------------------+-----------------------------------+------------------+----------------+
+| ~led_clk_BUFG              |                                      |                                   |                2 |              4 |
+|  clk_IBUF_BUFG             |                                      | u1/COUNT[3]_i_1_n_0               |                1 |              8 |
+|  P/my_task/clk_1ms_reg_n_0 |                                      |                                   |                2 |             12 |
+|  led_clk_BUFG              | R/y[5]_i_1_n_0                       |                                   |                3 |             12 |
+|  led_clk_BUFG              | display/x_reg[6]                     |                                   |                3 |             14 |
+|  led_clk_BUFG              | R/h_move/COUNT[17]_i_1_n_0           |                                   |                2 |             14 |
+|  led_clk_BUFG              | R/v_move/COUNT[19]_i_1_n_0           |                                   |                5 |             14 |
+|  P/my_task/clk_1ms_reg_n_0 | P/my_task/debounce_cnt_L             | P/my_task/show_left0              |                2 |             18 |
+|  P/my_task/clk_1ms_reg_n_0 | P/my_task/debounce_cnt_R             | P/my_task/show_right0             |                3 |             18 |
+|  led_clk_BUFG              |                                      |                                   |                6 |             18 |
+|  nolabel_line41/u1/blink   |                                      |                                   |                3 |             26 |
+|  clk_IBUF_BUFG             |                                      | nolabel_line41/u1/blink0          |                4 |             26 |
+| ~led_clk_BUFG              |                                      | display/frame_counter[16]_i_1_n_0 |                4 |             32 |
+|  clk_IBUF_BUFG             |                                      | P/my_task/clk_1ms                 |                4 |             32 |
+|  led_clk_BUFG              | R/h_move/COUNT[17]_i_2_n_0           | R/h_move/COUNT[17]_i_1_n_0        |                5 |             34 |
+|  led_clk_BUFG              | R/v_move/COUNT[19]_i_2_n_0           | R/v_move/COUNT[19]_i_1_n_0        |                6 |             40 |
+| ~led_clk_BUFG              | display/delay[0]_i_1_n_0             |                                   |                5 |             40 |
+|  clk_IBUF_BUFG             |                                      | S/c/COUNT[21]_i_1_n_0             |                6 |             42 |
+| ~led_clk_BUFG              | display/FSM_onehot_state[31]_i_1_n_0 |                                   |                9 |             64 |
+| ~led_clk_BUFG              |                                      | display/spi_word[39]_i_1_n_0      |               19 |             90 |
+|  clk_40                    | S/mv/offset_y[6]_i_1_n_0             |                                   |               33 |            110 |
+|  clk_40                    | S/mv/offset_x[6]_i_1_n_0             |                                   |               37 |            116 |
+|  clk_IBUF_BUFG             |                                      |                                   |               28 |            158 |
++----------------------------+--------------------------------------+-----------------------------------+------------------+----------------+
+
+

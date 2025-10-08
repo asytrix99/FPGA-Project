@@ -1,0 +1,1253 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  8 15:46:42 2025
+# Process ID: 2804
+# Current directory: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14760 C:\Users\fooka\Desktop\EE2026\Lab\Project\FDP\FDP.xpr
+# Log file: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/vivado.log
+# Journal file: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/fooka/Desktop/EE2026/Lab/FDP' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v w ]
+add_fiexit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  8 15:50:10 2025...
+basic_task_S.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/left_db.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/left_db.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v] -no_script -reset -force -quiet
+remove_files  C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v
+file delete -force C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v
+export_ip_user_files -of_objects  [get_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/left_db.v] -no_script -reset -force -quiet
+remove_files  C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/left_db.v
+file delete -force C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/left_db.v
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v] -no_script -reset -force -quiet
+remove_files  C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v
+file delete -force C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 16:31:11 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 16:31:11 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9A9BDA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 16:40:01 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 16:40:01 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+archive_project C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP.xpr.zip -temp_dir C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/.Xil/Vivado-2804-FooKang -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/.Xil/Vivado-2804-FooKang' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1720.363 ; gain = 28.461
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 16:49:54 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 16:49:54 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9A9BDA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B9A9BDA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-Basys3-210183B9A9BDA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 16:55:11 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 16:56:45 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 16:56:45 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 16:58:44 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 16:58:44 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:02:18 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:03:40 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:03:40 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+launch_runs synth_1 -jobs 9
+[Wed Oct  8 17:11:27 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:11:40 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:11:40 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:17:07 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:18:25 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:18:25 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:19:13 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:19:13 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:28:25 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:28:51 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:28:51 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:33:12 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:33:23 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:33:23 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:39:21 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:39:33 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:39:33 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:51:54 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 17:56:41 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 17:56:41 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:05:23 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:07:24 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:07:24 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Common 17-344] 'open_run' was cancelled
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:23:15 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:23:15 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:24:04 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:24:04 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/horizontal_movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/Top_Student.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_Q.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/imports/Desktop/Oled_Display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk6p25m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/debouncer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_P.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_20m.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_S.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/basic_task_R.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/movement.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk40.v:]
+INFO: [Common 17-14] Message 'filemgmt 56-199' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:28:05 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:28:18 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:28:18 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:33:29 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:33:51 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:33:52 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:35:27 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:35:28 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:38:31 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+2. Failed to delete one or more files in run directory C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:38:37 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:38:37 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/seven_seg.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/seven_seg.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:40:00 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:40:00 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:42:11 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:42:39 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:42:39 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+close_hw
+close [ open C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_500.v w ]
+add_files C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.srcs/sources_1/new/clk_500.v
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:57:48 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:57:48 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 18:58:05 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 18:58:05 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 19:01:39 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Wed Oct  8 19:01:47 2025] Launched synth_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/synth_1/runme.log
+[Wed Oct  8 19:01:47 2025] Launched impl_1...
+Run output will be captured here: C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AEFAA
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/FDP.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+archive_project C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP.xpr.zip -temp_dir C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/.Xil/Vivado-2804-FooKang -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/fooka/Desktop/EE2026/Lab/Project/FDP/.Xil/Vivado-2804-FooKang' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
