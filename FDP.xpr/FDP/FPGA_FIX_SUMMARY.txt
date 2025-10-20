@@ -1,0 +1,178 @@
+================================================================================
+FPGA PROJECT FIX SUMMARY
+================================================================================
+
+ISSUES FIXED:
+-------------
+1. Missing input_system module (now created)
+2. SW[13] not properly connected for sign toggling
+3. Sign not clearly visible on OLED display
+4. No indication of stored values
+5. Missing seg_display module
+
+================================================================================
+FILES CREATED/MODIFIED:
+================================================================================
+
+NEW FILES:
+----------
+1. input_system_fixed.v          - Main input system wrapper
+2. coefficient_input_fixed.v     - Enhanced coefficient input with sign toggle
+3. seg_display.v                  - 7-segment display driver
+4. simple_oled_display_fixed.v   - Enhanced OLED display
+5. Top_Student_fixed.v           - Fixed top module
+
+================================================================================
+HOW TO USE YOUR SYSTEM:
+================================================================================
+
+SWITCHES:
+---------
+SW[15:14] - Function Type Selection
+  - 00: Quadratic (y = ax² + bx + c)
+  - 01: Linear (y = bx + c)
+  - 10: Constant (y = c)
+  - 11: Logarithmic (y = a*log_b(x) + c)
+
+SW[13] - Sign Toggle (FLIP THIS TO TOGGLE SIGN)
+  - When you flip SW[13] ON, it toggles the sign of the currently active coefficient
+  - You'll see the sign change from + to - or vice versa
+  - The sign is displayed in COLOR on the OLED:
+    * GREEN = Positive (+)
+    * RED = Negative (-)
+
+BUTTONS:
+--------
+BTNC  - Advance to next coefficient (A -> B -> C -> A)
+        When you cycle back to A, "STORED" appears on OLED
+BTNL  - Move cursor left (towards thousands digit)
+BTNR  - Move cursor right (towards ones digit)
+BTNU  - Increment digit at cursor position
+BTND  - Decrement digit at cursor position
+
+================================================================================
+OLED DISPLAY INDICATORS:
+================================================================================
+
+TOP SECTION:
+------------
+- Equation display (changes based on function type)
+- Function type indicator (top right): Q/L/c/lo
+- SW13 status bar (below function type):
+  * GREEN bar = SW13 is ON
+  * RED bar = SW13 is OFF
+- "STORED" text (blinking green) = Values have been finalized
+
+COEFFICIENT ROWS:
+-----------------
+Row 1: A [sign] [digit3] [digit2] [digit1] [digit0]
+Row 2: B [sign] [digit3] [digit2] [digit1] [digit0]
+Row 3: C [sign] [digit3] [digit2] [digit1] [digit0]
+
+COLORS:
+-------
+- WHITE = Active coefficient being edited
+- CYAN = Inactive coefficients
+- GREEN = Positive sign (+)
+- RED = Negative sign (-)
+- YELLOW = Cursor position (blinking)
+
+================================================================================
+LED INDICATORS (For Debugging):
+================================================================================
+
+LED[15:14] - Function type
+LED[13]    - SW[13] state (shows if switch is ON/OFF)
+LED[12]    - Input done indicator (1 = values stored)
+LED[11:10] - Active coefficient (00=A, 01=B, 10=C)
+LED[9]     - Sign of A (1=negative, 0=positive)
+LED[8]     - Sign of B (1=negative, 0=positive)
+LED[7]     - Sign of C (1=negative, 0=positive)
+LED[6]     - Input valid status
+
+================================================================================
+WHERE ARE THE FINAL A, B, C VALUES?
+================================================================================
+
+ANSWER: The final coefficient values are stored at MULTIPLE LEVELS:
+
+1. DIGIT LEVEL (coefficient_input module):
+   - a_digits[0:3] - Individual BCD digits for coefficient A
+   - b_digits[0:3] - Individual BCD digits for coefficient B
+   - c_digits[0:3] - Individual BCD digits for coefficient C
+   
+2. SIGN LEVEL (coefficient_input module):
+   - sign_a - Sign bit for A (0=positive, 1=negative)
+   - sign_b - Sign bit for B
+   - sign_c - Sign bit for C
+
+3. FINAL BINARY VALUES (coefficient_input module outputs):
+   - coeff_a [15:0] - Signed 16-bit value of A (continuously updated)
+   - coeff_b [15:0] - Signed 16-bit value of B (continuously updated)
+   - coeff_c [15:0] - Signed 16-bit value of C (continuously updated)
+   
+   These are the ACTUAL values you should use for calculations!
+   They are signed integers ranging from -9999 to +9999.
+
+4. TOP MODULE (Top_Student):
+   - The values propagate up to the top module via wires:
+     wire signed [15:0] coeff_a, coeff_b, coeff_c;
+   
+   These wires carry the final values that you can use in other modules.
+
+================================================================================
+EXAMPLE USAGE:
+================================================================================
+
+To enter A = -123:
+1. Make sure you're on coefficient A (should be WHITE on OLED)
+2. Use BTNU/BTND to set digits to 0123
+3. Flip SW[13] ON to toggle the sign (sign should turn RED)
+4. Flip SW[13] OFF (optional, but good practice)
+5. Press BTNC to advance to B
+
+To enter B = +456:
+1. You're now on B (WHITE on OLED)
+2. Use BTNU/BTND to set digits to 0456
+3. Sign should already be + (GREEN), no need to toggle
+4. Press BTNC to advance to C
+
+To enter C = -789:
+1. You're now on C (WHITE on OLED)
+2. Use BTNU/BTND to set digits to 0789
+3. Flip SW[13] ON to toggle the sign (sign should turn RED)
+4. Flip SW[13] OFF
+5. Press BTNC to store values (you'll see "STORED" blink on OLED)
+
+================================================================================
+IMPORTANT NOTES:
+================================================================================
+
+1. The coefficient values (coeff_a, coeff_b, coeff_c) are CONTINUOUSLY
+   updated as you edit. They don't wait for input_done.
+
+2. The input_done signal only indicates that you've cycled through all
+   three coefficients. It's more of a "I'm done editing" flag.
+
+3. To verify sign toggling works:
+   - Watch LED[9], LED[8], LED[7] - they show the sign states
+   - Watch the OLED sign color (GREEN=+, RED=-)
+   - Watch the SW13 indicator bar on the OLED
+
+4. The 7-segment display always shows the digits of the currently active
+   coefficient (the one you're editing).
+
+================================================================================
+TO IMPLEMENT IN YOUR PROJECT:
+================================================================================
+
+Replace the following files with the "_fixed" versions:
+1. Top_Student.v -> Top_Student_fixed.v
+2. coefficient_input.v -> coefficient_input_fixed.v
+3. simple_oled_display.v -> simple_oled_display_fixed.v
+4. input_system.v -> input_system_fixed.v (or create if missing)
+5. seg_display.v (use the new one)
+
+Then synthesize and program your FPGA!
+
+================================================================================
