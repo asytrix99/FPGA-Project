@@ -43,16 +43,7 @@ module input_system(
     output wire clk_100Hz_top
 );
 
-    // Button debouncers
-    wire btnc_db, btnl_db, btnr_db, btnu_db, btnd_db;
-    
-    debouncer db_c(.clk(CLOCK), .rst(RST), .btn_in(BTNC), .btn_out(btnc_db));
-    debouncer db_l(.clk(CLOCK), .rst(RST), .btn_in(BTNL), .btn_out(btnl_db));
-    debouncer db_r(.clk(CLOCK), .rst(RST), .btn_in(BTNR), .btn_out(btnr_db));
-    debouncer db_u(.clk(CLOCK), .rst(RST), .btn_in(BTNU), .btn_out(btnu_db));
-    debouncer db_d(.clk(CLOCK), .rst(RST), .btn_in(BTND), .btn_out(btnd_db));
-    
-    // Clock divider
+    // Clock divider (must come first to generate clk_1kHz for debouncers)
     clock_divider clk_div(
         .CLOCK(CLOCK),
         .RST(RST),
@@ -60,6 +51,15 @@ module input_system(
         .clk_10Hz(clk_10Hz_top),
         .clk_100Hz(clk_100Hz_top)
     );
+    
+    // Button debouncers - using 1kHz clock for proper debouncing
+    wire btnc_db, btnl_db, btnr_db, btnu_db, btnd_db;
+    
+    button_debouncer db_c(.clk_1kHz(clk_1kHz_top), .RST(RST), .button_in(BTNC), .button_pressed(btnc_db));
+    button_debouncer db_l(.clk_1kHz(clk_1kHz_top), .RST(RST), .button_in(BTNL), .button_pressed(btnl_db));
+    button_debouncer db_r(.clk_1kHz(clk_1kHz_top), .RST(RST), .button_in(BTNR), .button_pressed(btnr_db));
+    button_debouncer db_u(.clk_1kHz(clk_1kHz_top), .RST(RST), .button_in(BTNU), .button_pressed(btnu_db));
+    button_debouncer db_d(.clk_1kHz(clk_1kHz_top), .RST(RST), .button_in(BTND), .button_pressed(btnd_db));
     
     // Function selector
     function_selector func_sel(
@@ -113,38 +113,4 @@ module input_system(
         .error_code(error_code_top)
     );
 
-endmodule
-
-
-// Simple debouncer module
-module debouncer(
-    input wire clk,
-    input wire rst,
-    input wire btn_in,
-    output reg btn_out
-);
-    reg [19:0] counter;
-    reg btn_sync_0, btn_sync_1;
-    
-    always @(posedge clk or posedge rst) begin
-        if (rst) begin
-            btn_sync_0 <= 0;
-            btn_sync_1 <= 0;
-            counter <= 0;
-            btn_out <= 0;
-        end else begin
-            btn_sync_0 <= btn_in;
-            btn_sync_1 <= btn_sync_0;
-            
-            if (btn_sync_1) begin
-                if (counter < 20'd1000000)
-                    counter <= counter + 1;
-                else
-                    btn_out <= 1;
-            end else begin
-                counter <= 0;
-                btn_out <= 0;
-            end
-        end
-    end
 endmodule

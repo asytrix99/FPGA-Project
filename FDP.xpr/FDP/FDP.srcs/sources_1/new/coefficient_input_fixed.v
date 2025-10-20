@@ -36,9 +36,9 @@ module coefficient_input(
     output wire [3:0] digit_c_2,
     output wire [3:0] digit_c_3,
     
-    output reg sign_a,
-    output reg sign_b,
-    output reg sign_c,
+    output wire sign_a,
+    output wire sign_b,
+    output wire sign_c,
     output reg input_done
     );
     
@@ -70,9 +70,16 @@ module coefficient_input(
         end
     endfunction
     
-    // Sign toggle logic
-    reg sw_sign_prev;
-    reg sign_toggle_pulse;
+    // Sign toggle module instantiation
+    sign_toggle sign_tog(
+        .CLOCK(CLOCK),
+        .RST(RST),
+        .sw_sign(sw_sign),
+        .active_coeff(active_coeff),
+        .sign_a(sign_a),
+        .sign_b(sign_b),
+        .sign_c(sign_c)
+    );
     
     integer i;
     
@@ -86,10 +93,6 @@ module coefficient_input(
             
             a_digits[0] <= 1;
             
-            sign_a <= 0;
-            sign_b <= 0;
-            sign_c <= 0;
-            
             active_coeff <= state_a;
             cursor_pos <= 2'b00;
             input_done <= 0;
@@ -97,27 +100,7 @@ module coefficient_input(
             coeff_a <= 16'sd1;
             coeff_b <= 16'sd0;
             coeff_c <= 16'sd0;
-            
-            sw_sign_prev <= 0;
-            sign_toggle_pulse <= 0;
         end else begin
-            // Handle sign toggle switch
-            sw_sign_prev <= sw_sign;
-            
-            if (sw_sign && !sw_sign_prev) begin
-                sign_toggle_pulse <= 1;
-            end else begin
-                sign_toggle_pulse <= 0;
-            end
-            
-            if (sign_toggle_pulse) begin
-                case (active_coeff)
-                    state_a: sign_a <= ~sign_a;
-                    state_b: sign_b <= ~sign_b;
-                    state_c: sign_c <= ~sign_c;
-                endcase
-            end
-            
             // Handle cursor movement
             if (BTNL) begin
                 if (cursor_pos < 3)
